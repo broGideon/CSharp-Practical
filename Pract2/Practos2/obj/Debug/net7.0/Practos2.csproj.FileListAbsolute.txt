@@ -1,0 +1,14 @@
+D:\my project\Practos2\Practos2\bin\Debug\net7.0\Practos2.exe
+D:\my project\Practos2\Practos2\bin\Debug\net7.0\Practos2.deps.json
+D:\my project\Practos2\Practos2\bin\Debug\net7.0\Practos2.runtimeconfig.json
+D:\my project\Practos2\Practos2\bin\Debug\net7.0\Practos2.dll
+D:\my project\Practos2\Practos2\bin\Debug\net7.0\Practos2.pdb
+D:\my project\Practos2\Practos2\obj\Debug\net7.0\Practos2.GeneratedMSBuildEditorConfig.editorconfig
+D:\my project\Practos2\Practos2\obj\Debug\net7.0\Practos2.AssemblyInfoInputs.cache
+D:\my project\Practos2\Practos2\obj\Debug\net7.0\Practos2.AssemblyInfo.cs
+D:\my project\Practos2\Practos2\obj\Debug\net7.0\Practos2.csproj.CoreCompileInputs.cache
+D:\my project\Practos2\Practos2\obj\Debug\net7.0\Practos2.dll
+D:\my project\Practos2\Practos2\obj\Debug\net7.0\refint\Practos2.dll
+D:\my project\Practos2\Practos2\obj\Debug\net7.0\Practos2.pdb
+D:\my project\Practos2\Practos2\obj\Debug\net7.0\Practos2.genruntimeconfig.cache
+D:\my project\Practos2\Practos2\obj\Debug\net7.0\ref\Practos2.dll

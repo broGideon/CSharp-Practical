@@ -1,0 +1,54 @@
+﻿<Window x:Class="Datebook.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Datebook"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="375" Width="568">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="1" Grid.Row="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Content="Создать" Grid.Column="0" Grid.Row="0" Height="auto" Click="Create"/>
+            <Button Content="Сохранить" Grid.Column="1" Grid.Row="0" Height="auto" Margin="0, 0, 12, 0" Click="Update"/>
+        </Grid>
+        <Grid Grid.Column="0" Grid.Row="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Button Content="Удалить" Grid.Row="0" Height="auto" Margin="12, 0, 0, 0" Click="Delete"/>
+        </Grid>
+        <DatePicker Name="DatePicker" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2" Margin="12,7,12,0" Grid.RowSpan="2" SelectedDateChanged="DatePicker_SelectedDateChanged_1" SelectedDateFormat="Long" FirstDayOfWeek="Monday" />
+        <ListBox Name="ListBox" Grid.Row="1" Grid.Column="0" Margin="12, 0, 0, 0" SelectionChanged="ListBox_SelectionChanged"/>
+        <Grid Grid.Row="1" Grid.Column="1" Margin="0, 0, 12, 0">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition Height="7*"/>
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0" Text="Название:" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <TextBox Name="Name" Grid.Row="1"/>
+            <TextBlock Grid.Row="2" Text="Описание:" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <TextBox Name="Description" Grid.Row="3"/>
+        </Grid>
+    </Grid>
+</Window>

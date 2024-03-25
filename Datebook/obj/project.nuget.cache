@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6MbaPm8HY7dICp4s4OfSVSOBzz0ENPJNySaNWQsxjC3BBLeJD8z2IMsc/CHui64K6OWzwytiJ/dV2oheBodh8w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\broGideon\\source\\repos\\Datebook\\Datebook\\Datebook.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\broGideon\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

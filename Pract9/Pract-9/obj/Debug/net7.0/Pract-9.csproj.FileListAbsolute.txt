@@ -1,0 +1,17 @@
+D:\my project\Pract-9\Pract-9\obj\Debug\net7.0\Pract-9.csproj.AssemblyReference.cache
+D:\my project\Pract-9\Pract-9\obj\Debug\net7.0\Pract-9.GeneratedMSBuildEditorConfig.editorconfig
+D:\my project\Pract-9\Pract-9\obj\Debug\net7.0\Pract-9.AssemblyInfoInputs.cache
+D:\my project\Pract-9\Pract-9\obj\Debug\net7.0\Pract-9.AssemblyInfo.cs
+D:\my project\Pract-9\Pract-9\obj\Debug\net7.0\Pract-9.csproj.CoreCompileInputs.cache
+D:\my project\Pract-9\Pract-9\bin\Debug\net7.0\Pract-9.exe
+D:\my project\Pract-9\Pract-9\bin\Debug\net7.0\Pract-9.deps.json
+D:\my project\Pract-9\Pract-9\bin\Debug\net7.0\Pract-9.runtimeconfig.json
+D:\my project\Pract-9\Pract-9\bin\Debug\net7.0\Pract-9.dll
+D:\my project\Pract-9\Pract-9\bin\Debug\net7.0\Pract-9.pdb
+D:\my project\Pract-9\Pract-9\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\my project\Pract-9\Pract-9\obj\Debug\net7.0\Pract-9.csproj.CopyComplete
+D:\my project\Pract-9\Pract-9\obj\Debug\net7.0\Pract-9.dll
+D:\my project\Pract-9\Pract-9\obj\Debug\net7.0\refint\Pract-9.dll
+D:\my project\Pract-9\Pract-9\obj\Debug\net7.0\Pract-9.pdb
+D:\my project\Pract-9\Pract-9\obj\Debug\net7.0\Pract-9.genruntimeconfig.cache
+D:\my project\Pract-9\Pract-9\obj\Debug\net7.0\ref\Pract-9.dll
