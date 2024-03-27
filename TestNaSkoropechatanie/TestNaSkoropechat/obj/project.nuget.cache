@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "0S6JYc3qS5NH8xJazn5DRjzj17kME1hJV3qC3JHJC0HfhEi4l/Li0d7MTwjOFqaStweU3/MiA+e6tgXsLvglHg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\broGideon\\RiderProjects\\TestNaSkoropechat\\TestNaSkoropechat\\TestNaSkoropechat.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\broGideon\\.nuget\\packages\\materialdesigncolors\\3.1.0-ci577\\materialdesigncolors.3.1.0-ci577.nupkg.sha512",
+    "C:\\Users\\broGideon\\.nuget\\packages\\materialdesignthemes\\5.0.1-ci577\\materialdesignthemes.5.0.1-ci577.nupkg.sha512",
+    "C:\\Users\\broGideon\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.77\\microsoft.xaml.behaviors.wpf.1.1.77.nupkg.sha512",
+    "C:\\Users\\broGideon\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
