@@ -1,0 +1,75 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Page Update="View\MainWindow.xaml">
+            <Generator>MSBuild:Compile</Generator>
+            <XamlRuntime>Wpf</XamlRuntime>
+            <SubType>Designer</SubType>
+        </Page>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="MaterialDesignThemes" Version="5.0.1-ci588"/>
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.3"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Folder Include="Model\Source\"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Remove="Model\Source\Default.png"/>
+        <Resource Include="Model\Source\Default.png">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
+        <None Remove="Model\Source\icons\beef-96.png"/>
+        <Resource Include="Model\Source\icons\beef-96.png">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
+        <None Remove="Model\Source\icons\bread-96.png"/>
+        <Resource Include="Model\Source\icons\bread-96.png">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
+        <None Remove="Model\Source\icons\cheese-96.png"/>
+        <Resource Include="Model\Source\icons\cheese-96.png">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
+        <None Remove="Model\Source\icons\cola-96.png"/>
+        <Resource Include="Model\Source\icons\cola-96.png">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
+        <None Remove="Model\Source\icons\fish-food-96.png"/>
+        <Resource Include="Model\Source\icons\fish-food-96.png">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
+        <None Remove="Model\Source\icons\ice-cream-cone-96.png"/>
+        <Resource Include="Model\Source\icons\ice-cream-cone-96.png">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
+        <None Remove="Model\Source\icons\pineapple-96.png"/>
+        <Resource Include="Model\Source\icons\pineapple-96.png">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
+        <None Remove="Model\Source\icons\pizza-96.png"/>
+        <Resource Include="Model\Source\icons\pizza-96.png">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
+        <None Remove="Model\Source\icons\strawberry-96.png"/>
+        <Resource Include="Model\Source\icons\strawberry-96.png">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
+        <None Remove="Model\Source\icons\sunny-side-up-eggs-96.png"/>
+        <Resource Include="Model\Source\icons\sunny-side-up-eggs-96.png">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Resource>
+    </ItemGroup>
+
+</Project>
