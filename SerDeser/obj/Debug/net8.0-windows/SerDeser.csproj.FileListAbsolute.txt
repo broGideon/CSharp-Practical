@@ -1,0 +1,12 @@
+C:\Users\broGideon\RiderProjects\Pract8\SerDeser\bin\Debug\net8.0-windows\SerDeser.deps.json
+C:\Users\broGideon\RiderProjects\Pract8\SerDeser\bin\Debug\net8.0-windows\SerDeser.dll
+C:\Users\broGideon\RiderProjects\Pract8\SerDeser\bin\Debug\net8.0-windows\SerDeser.pdb
+C:\Users\broGideon\RiderProjects\Pract8\SerDeser\obj\Debug\net8.0-windows\SerDeser.csproj.AssemblyReference.cache
+C:\Users\broGideon\RiderProjects\Pract8\SerDeser\obj\Debug\net8.0-windows\SerDeser.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\broGideon\RiderProjects\Pract8\SerDeser\obj\Debug\net8.0-windows\SerDeser.AssemblyInfoInputs.cache
+C:\Users\broGideon\RiderProjects\Pract8\SerDeser\obj\Debug\net8.0-windows\SerDeser.AssemblyInfo.cs
+C:\Users\broGideon\RiderProjects\Pract8\SerDeser\obj\Debug\net8.0-windows\SerDeser.csproj.CoreCompileInputs.cache
+C:\Users\broGideon\RiderProjects\Pract8\SerDeser\obj\Debug\net8.0-windows\SerDeser.dll
+C:\Users\broGideon\RiderProjects\Pract8\SerDeser\obj\Debug\net8.0-windows\refint\SerDeser.dll
+C:\Users\broGideon\RiderProjects\Pract8\SerDeser\obj\Debug\net8.0-windows\SerDeser.pdb
+C:\Users\broGideon\RiderProjects\Pract8\SerDeser\obj\Debug\net8.0-windows\ref\SerDeser.dll

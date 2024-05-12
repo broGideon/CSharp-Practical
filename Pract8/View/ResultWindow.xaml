@@ -1,0 +1,44 @@
+﻿<Window x:Class="TestNaSkoropechat.View.ResultWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:TestNaSkoropechat.View"
+        mc:Ignorable="d"
+        Foreground="White"
+        Title="ResultWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            
+            <Button
+                Grid.Column="0"
+                Content="Попробовать еще раз"
+                FontSize="16"
+                FontFamily="Segoe Print"
+                Command="{Binding AddComand2}"/>
+            <Button
+                Grid.Column="1"
+                Content="Закончить"
+                FontSize="16"
+                FontFamily="Segoe Print"
+                Command="{Binding AddComand1}"/>
+        </Grid>
+        
+        <DataGrid
+            Grid.Row="0"
+            IsReadOnly="True"
+            ColumnWidth="*"
+            Background="Magenta"
+            FontFamily="Segoe Print"
+            FontSize="14"
+            ItemsSource="{Binding Results}"/>
+    </Grid>
+</Window>

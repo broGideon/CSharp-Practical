@@ -1,0 +1,53 @@
+﻿<Window x:Class="TestNaSkoropechat.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestNaSkoropechat"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Background="Magenta"
+        Foreground="#FFFFFF"
+        Title="Authorization" Height="350" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        
+        <TextBlock 
+            Grid.Row="0" 
+            TextAlignment="Center" 
+            FontSize="22" 
+            FontWeight="Bold"
+            Text="Авторизация"
+            FontFamily="Segoe Print"/>
+        
+        <TextBlock 
+            Grid.Row="1"
+            TextAlignment="Center"
+            Padding="0, 100, 0, 0"
+            FontWeight="Bold"
+            Text="Введите имя"
+            FontFamily="Segoe Print"/>
+        
+        <TextBox 
+            Grid.Row="2" 
+            TextAlignment="Center"
+            Name="textBox"
+            Width="100"
+            Margin="10"
+            FontFamily="Segoe Print"
+            Text="{Binding Name}"/>
+        
+        <Button 
+            Grid.Row="3" 
+            HorizontalAlignment="Center" 
+            Width="100" 
+            Content="Начать"
+            FontFamily="Segoe Print"
+            Command="{Binding AddCommand}"/>
+    </Grid>
+</Window>
